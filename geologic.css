@@ -1,4 +1,10 @@
 /*
+Color composition by J.M. Pellé (BRGM, France)
+https://engineering.purdue.edu/Stratigraphy/charts/RGB.pdf
+*/
+
+
+/*
     __             
    /_/             
    ___  ___  _ __  
@@ -7,25 +13,208 @@
   \___|\___/|_| |_|
 */
 
-.eon_phanerozoic {
-  name  = "Phanérozoïque";
-  color = rgb(154/217/221);
-}
+.eon_phanerozoic {              name  = "phanérozoïque";                        color = rgb(154, 217, 221);   }
 
-.eon_proterozoic {
-  name  = "Protérozoïque";
-  color = rgb(247,53,99);
-}
 
-.eon_archean {
-  name  = "Archéen";
-  color = rgb(240,4,127);
-}
 
-.eon_hadean {
-  name  = "Hadéen";
-  color = rgb(174,2,126);
-}
+.eon_proterozoic {              name  = "protérozoïque";                        color = rgb(247,  53,  99);   }
+  .ere_neoproterozoic {         name  = "néoprotérozoïque";                     color = rgb(254, 179,  66);   }
+    .period_ediacaran {         name  = "édiacarien";                           color = rgb(254, 217, 106);   }
+    .period_cryogenian {        name  = "cryogénien";                           color = rgb(254, 204,  92);   }
+      .epoch_varanger {         name  = "varangien";                            color = rgb(254, 204,  92);   } /* check */
+      .epoch_sturtian {         name  = "sturtien";                             color = rgb(254, 204,  92);   } /* check */
+    .period_tonian {            name  = "tonien";                               color = rgb(254, 191,  78);   }
+  .ere_mesoproterozoic {        name  = "mésoprotérozoïque";                    color = rgb(253, 180,  98);   }
+    .period_stenian {           name  = "sténien";                              color = rgb(254, 217, 154);   }
+    .period_ectasian {          name  = "ectasien";                             color = rgb(253, 204, 138);   }
+    .period_calymmian {         name  = "calymmien";                            color = rgb(253, 192, 122);   }
+  .ere_paleoproterozoic {       name  = "paléoprotérozoïque";                   color = rgb(247,  67, 112);   }
+    .period_statherian {        name  = "stathérien";                           color = rgb(248, 117, 167);   }
+    .period_orosirian {         name  = "orosirien";                            color = rgb(247, 104, 152);   }
+    .period_rhyacian {          name  = "rhyacien";                             color = rgb(247,  91, 137);   }
+    .period_siderian {          name  = "sidérien";                             color = rgb(247,  79, 124);   }
+
+.eon_archean {                  name  = "archéen";                              color = rgb(240,   4, 127);   }
+  .ere_neoarchean {             name  = "néoarchéen";                           color = rgb(249, 155, 193);   }
+    .period_neoarchean {        name  = "néoarchéen";                           color = rgb(250, 167, 200);   }
+  .ere_mesoarchean {            name  = "mésoarchéen";                          color = rgb(247, 104, 169);   }
+    .period_mesoarchean {       name  = "mésoarchéen";                          color = rgb(248, 129, 181);   }
+  .ere_paleoarchean {           name  = "paléoarchéen";                         color = rgb(244,  68, 159);   }
+    .period_paleoarchean {      name  = "paléoarchéen";                         color = rgb(246, 104, 178);   }
+  .ere_eoarchean {              name  = "éoarchéen";                            color = rgb(218,   3, 127);   }
+    .period_eoarchean {         name  = "éoarchéen";                            color = rgb(230,  29, 140);   }
+
+.eon_hadean {                   name  = "hadéen";                               color = rgb(174,  2, 126);    }
+  .ere_hadean {                 name  = "hadéen";                               color = rgb(174,  2, 126);    }
+
+
+
+
+
+
+
+
+
+
+
+
+aalenian
+aeronian
+albian
+anisian
+aptian
+aquitanian
+ proterozoic
+artinskian
+asselian
+bajocian
+barremian
+bartonian
+bashkirian
+bathonian
+berriasian
+burdigalian
+c e n o z o i c m e s o z o i c
+calabrian
+callovian
+cambrian ordovician silurian
+campanian
+capitanian
+carboniferous
+carnian
+cenomanian
+changhsingian 
+chattian
+cisuralian
+coniacian
+cretaceous
+danian
+dapingian
+darriwilian
+drumian
+eifelian
+emsian
+eoarchean
+eocene
+famennian  
+floian
+fortunian
+frasnian
+furongian
+gelasian
+givetian
+gorstian
+guadalupian
+guzhangian
+gzhelian
+hauterivian
+hettangian
+hirnantian
+holocene
+homerian
+induan
+jiangshanian
+kasimovian
+katian
+kimmeridgian
+kungurian
+ladinian
+langhian
+llandovery
+lochkovian
+lopingian
+lower
+lower
+lower
+lower
+lower
+lower
+lower devonian
+ludfordian
+ludlow
+lutetian
+maastrichtian
+meso-
+messinian
+middle
+middle
+middle
+middle
+middle
+middle
+miocene
+moscovian
+neogene
+norian
+olenekian
+oligocene
+oxfordian
+p a l e o z o i c 
+p a l e o z o i c m e s o z o i c
+p r e c a m b r i a n 
+paibian
+paleocene
+paleogene
+pennsylvanian
+permian jurassic triassic 
+piacenzian
+pleistocene
+pliensbachian
+pliocene
+pragian
+priabonian
+pridoli
+quaternary
+rhaetian
+rhuddanian
+roadian
+rupelian
+sakmarian
+sandbian
+santonian
+selandian
+series 3
+serpukhovian
+serravallian
+sheinwoodian
+sinemurian
+stage 10 
+stage 2 
+stage 3 
+stage 4 
+series 2
+stage 5 
+telychian 
+terreneuvian
+thanetian
+tithonian
+toarcian 
+tortonian
+tournaisian
+tremadocian 
+turonian 
+upper
+upper
+upper
+upper
+upper
+upper
+upper
+upper
+valanginian 
+visean mississippian
+wenlock
+wordian
+wuchiapingian 
+ypresian 
+zanclean
+
+
+
+        
+       
+
+
 
 
 
@@ -130,34 +319,15 @@
       Terreneuvien  Étage 2
         Fortunien
  
-  Néoprotérozoïque  Édiacarien    
-    Cryogénien  Varangien 
-      Sturtien  
-    Tonien    
-  Mésoprotérozoïque 
-    Sténien   
-    Ectasien    
-    Calymmien   
-  Paléoprotérozoïque  
-    Stathérien    
-    Orosirien   
-    Rhyacien    
-    Sidérien    
+
  
-        
-  Mésoarchéen     
-  Paléoarchéen      
-  Éoarchéen     
+    
+       
 
 
 
 
 
-
-.ere_neoarchean {
-  name  = "Néoarchéen";
-  color = rgb(249/155/193);
-}
 
 
 
@@ -237,11 +407,6 @@
  241/225/133
  242/237/173
  242/250/140
- 247/104/152
- 247/104/169
- 247/67/112
- 247/79/124
- 248/129/181
  251/116/92
  251/128/105
  251/141/118
@@ -251,17 +416,10 @@
  252/180/130
  252/180/162
  253/180/108
- 253/180/98
- 253/180/98
  253/191/111
- 253/192/122
  253/192/145
  253/205/161
  254/191/101
- 254/204/92
- 254/217/106
- 254/217/154
- 254/217/154
  254/242/236
  255/230/25
  255/237/179
@@ -304,31 +462,21 @@
 204/236/221
 217/240/187
 217/240/223
-218/3/127
 227/123/104
 229/172/77
 230/244/127
 230/245/225
 230/245/225 
 179/225/182
-230/29/140
 241/225/157 
 203/140/55
 242/249/29
-244/68/159
-246/104/178
-247/91/137
-248/117/167
 249/249/127
-250/167/200 
 252/167/115
 252/192/178
 253/167/95
 253/192/122 
 253/154/82
-253/204/138
-254/179/66 
-254/191/78
 254/230/170
 254/242/224
 255/255/0
@@ -340,178 +488,6 @@
 51/169/126
 65/176/135
 77/180/126
-Aalenian
-Adobe® Illustrator® 6.0” (menu Edit / Color 
-Aeronian
-Albian
-Anisian
-Aptian
-Aquitanian
- Proterozoic
-Artinskian
-Asselian
-ATTENTION: For color conversions using a 
-Bajocian
-Barremian
-Bartonian
-Bashkirian
-Bathonian
-Berriasian
-Burdigalian
-C e n o z o i c M e s o z o i c
-Calabrian
-Callovian
-Calymmian
-Cambrian Ordovician Silurian
-Campanian
-Capitanian
-Carboniferous
-Carnian
-Cenomanian
-Changhsingian 
-Chattian
-Cisuralian
-Color composition by J.M. Pellé (BRGM, France)
-Coniacian
-Cretaceous
-Cryogenian
-Danian
-Dapingian
-Darriwilian
-Drumian
-Ectasian
-Eifelian
-Emsian
-Eoarchean
-Eocene
-Famennian 242/237/197 Ediacaran
-Floian
-Fortunian
-Frasnian
-from 0 (no pigment) to 255 (saturation of this 
-Furongian
-Gelasian
-Givetian
-Gorstian
-Guadalupian
-Guzhangian
-Gzhelian
+247/67/112
+242/237/197
 
-Hauterivian
-Hettangian
-Hirnantian
-Holocene
-Homerian
-if the resulting RGB values are slightly different.
-Illustrator® CS3’s color function of “Emulate 
-Induan
-Jan 2012
-Jiangshanian
-Kasimovian
-Katian
-Kimmeridgian
-Kungurian
-Ladinian
-Langhian
-Llandovery
-Lochkovian
-Lopingian
-Lower
-Lower
-Lower
-Lower
-Lower
-Lower
-Lower Devonian
-Ludfordian
-Ludlow
-Lutetian
-Maastrichtian
-Meso-
-Mesoarchean
-Messinian
-Middle
-Middle
-Middle
-Middle
-Middle
-Middle
-Miocene
-mixture of 203 Red, 140 Green and 205 Blue.
-Moscovian
-necessary to conserve the reference CMYK, even 
-Neogene
-Neoproterozoic
-Norian
-Olenekian
-Oligocene
-Orosirian
-Oxfordian
-P a l e o z o i c 
-P a l e o z o i c M e s o z o i c
-P r e c a m b r i a n 247/67/112
-Paibian
-Paleoarchean
-Paleocene
-Paleogene
-Paleoproterozoic
-Pennsylvanian
-Permian Jurassic Triassic 
-Piacenzian
-pigment). “Devonian (203/140/205)” indicates a 
-Pleistocene
-Pliensbachian
-Pliocene
-Pragian
-Priabonian
-Pridoli
-Quaternary
-Rhaetian
-Rhuddanian
-Rhyacian
-Roadian
-Rupelian
-Sakmarian
-Sandbian
-Santonian
-Selandian
-Series 3
-Serpukhovian
-Serravallian
-Settings / Settings).
-Sheinwoodian
-Siderian
-Sinemurian
-Stage 10 
-Stage 2 
-Stage 3 
-Stage 4 Series 2
-Stage 5 
-Statherian
-Stenian
-Telychian 
-Terreneuvian
-Thanetian
-Tithonian
-Toarcian
-Tonian 
-Tortonian
-Tournaisian
-Tremadocian 
-Turonian 
-Upper
-Upper
-Upper
-Upper
-Upper
-Upper
-Upper
-Upper
-Valanginian 
-values to the RGB codes utilizes Adobe® 
-Visean Mississippian
-Wenlock
-Wordian
-Wuchiapingian 
-Ypresian 
-Zanclean
