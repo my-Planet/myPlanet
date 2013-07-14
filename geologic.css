@@ -1,0 +1,517 @@
+/*
+    __             
+   /_/             
+   ___  ___  _ __  
+  / _ \/ _ \| '_ \ 
+ |  __/ (_) | | | |
+  \___|\___/|_| |_|
+*/
+
+.eon_phanerozoic {
+  name  = "Phanérozoïque";
+  color = rgb(154/217/221);
+}
+
+.eon_proterozoic {
+  name  = "Protérozoïque";
+  color = rgb(247,53,99);
+}
+
+.eon_archean {
+  name  = "Archéen";
+  color = rgb(240,4,127);
+}
+
+.eon_hadean {
+  name  = "Hadéen";
+  color = rgb(174,2,126);
+}
+
+
+
+ Cénozoïque  Quaternaire Holocène  Atlantique (Boréale)
+      Pléistocène Tarentien
+        Ionien
+        Calabrien
+        Gélasien
+    Néogène Pliocène  Plaisancien
+        Zancléen
+      Miocène Messinien
+        Tortonien
+        Serravallien
+        Langhien
+        Burdigalien
+        Aquitanien
+    Paléogène Oligocène Chattien
+        Rupélien
+      Éocène  Priabonien
+        Bartonien
+        Lutétien
+        Yprésien
+      Paléocène Thanétien
+        Sélandien
+        Danien
+  Mésozoïque  Crétacé Supérieur Maastrichtien
+        Campanien
+        Santonien
+        Coniacien
+        Turonien
+        Cénomanien
+      Inférieur Albien
+        Aptien
+        Barrémien
+        Hauterivien
+        Valanginien
+        Berriasien
+    Jurassique  Malm  Tithonien
+        Kimméridgien
+        Oxfordien
+      Dogger  Callovien
+        Bathonien
+        Bajocien
+        Aalénien
+      Lias  Toarcien
+        Pliensbachien
+        Sinémurien
+        Hettangien
+    Trias Supérieur Rhétien
+        Norien
+        Carnien
+      Moyen Ladinien
+        Anisien
+      Inférieur Olénékien
+        Induen
+  Paléozoïque Permien Lopingien Changhsingien
+        Wuchiapingien
+      Guadalupien Capitanien
+        Wordien
+        Roadien
+      Cisuralien  Kungurien
+        Artinskien
+        Sakmarien
+        Assélien
+    Carbonifère Pennsylvanien (cf. Silésien)  Gzhélien
+        Kasimovien
+        Moscovien
+        Bashkirien
+      Mississippien (cf. Dinantien) Serpoukhovien
+        Viséen
+        Tournaisien
+    Dévonien  Supérieur Famennien
+        Frasnien
+      Moyen Givétien
+        Eifelien
+      Inférieur Emsien
+        Praguien
+        Lochkovien
+    Silurien  Pridoli 
+      Ludlow  Ludfordien
+        Gorstien
+      Wenlock Homérien
+        Sheinwoodien
+      Llandovery  Télychien
+        Aéronien
+        Rhuddanien
+    Ordovicien  Supérieur Hirnantien
+        Katien
+        Sandbien
+      Moyen Darriwilien
+        Dapingien
+      Inférieur Floien
+        Trémadocien
+    Cambrien  Furongien Étage 10
+        Jiangshanien
+        Paibien
+      Série 3 Guzhangien
+        Drumien
+        Étage 5
+      Série 2 Étage 4
+        Étage 3
+      Terreneuvien  Étage 2
+        Fortunien
+ 
+  Néoprotérozoïque  Édiacarien    
+    Cryogénien  Varangien 
+      Sturtien  
+    Tonien    
+  Mésoprotérozoïque 
+    Sténien   
+    Ectasien    
+    Calymmien   
+  Paléoprotérozoïque  
+    Stathérien    
+    Orosirien   
+    Rhyacien    
+    Sidérien    
+ 
+        
+  Mésoarchéen     
+  Paléoarchéen      
+  Éoarchéen     
+
+
+
+
+
+
+.ere_neoarchean {
+  name  = "Néoarchéen";
+  color = rgb(249/155/193);
+}
+
+
+
+
+
+
+ 103/143/102 
+ 153/194/181
+ 103/188/216
+ 103/197/202
+ 103/197/202
+ 116/198/156
+ 127/202/147
+ 128/171/108
+ 128/197/221
+ 128/207/216 
+ 140/176/108
+ 140/176/108
+ 140/205/96
+ 152/57/153
+ 153/192/141
+ 153/192/141
+ 153/194/181 
+ 140/190/180
+ 153/206/227
+ 153/211/106
+ 153/215/179
+ 164/70/159
+ 166/185/108 
+ 153/180/108
+ 166/197/131 
+ 166/207/134
+ 166/216/74 
+ 127/198/78
+ 166/220/181
+ 176/81/165
+ 177/104/177
+ 179/203/185 
+ 166/199/183
+ 179/222/83
+ 179/223/127
+ 179/224/149
+ 179/225/194
+ 188/117/183
+ 189/140/195 
+ 129/43/146
+ 191/194/107
+ 179/190/108
+ 191/217/157
+ 191/227/93
+ 191/228/138
+ 191/230/207
+ 191/231/229
+ 191/231/241
+ 201/131/191
+ 201/155/203
+ 204/212/199
+ 204/223/170
+ 204/233/104
+ 204/234/151
+ 204/235/209
+ 204/236/244
+ 214/170/211
+ 217/239/116
+ 217/241/247
+ 227/111/92
+ 227/135/118
+ 227/185/219
+ 227/99/80
+ 229/183/90
+ 229/196/104
+ 229/208/117
+ 230/245/201
+ 239/88/69
+ 241/200/104
+ 241/213/118
+ 241/225/133
+ 242/237/173
+ 242/250/140
+ 247/104/152
+ 247/104/169
+ 247/67/112
+ 247/79/124
+ 248/129/181
+ 251/116/92
+ 251/128/105
+ 251/141/118
+ 251/154/133
+ 251/167/148 
+ 240/64/40
+ 252/180/130
+ 252/180/162
+ 253/180/108
+ 253/180/98
+ 253/180/98
+ 253/191/111
+ 253/192/122
+ 253/192/145
+ 253/205/161
+ 254/191/101
+ 254/204/92
+ 254/217/106
+ 254/217/154
+ 254/217/154
+ 254/242/236
+ 255/230/25
+ 255/237/179
+ 255/242/174
+ 255/242/186
+ 255/242/199
+ 255/242/211
+ 255/255/102
+ 255/255/153
+ 255/255/65
+ 255/255/77
+ 255/255/89
+ 66/174/208
+ 78/179/211
+102/192/146
+103/165/153
+127/160/86
+140/205/87
+140/208/148
+153/181/117
+153/192/120
+153/214/159
+154/217/221
+166/186/128
+166/217/117
+166/219/171 
+0/146/112
+166/221/224
+179/202/142
+179/212/146
+179/225/194
+179/226/227
+179/227/238 
+52/178/201
+191/208/186
+191/208/197
+191/230/195
+191/230/207
+204/235/174
+204/236/221
+217/240/187
+217/240/223
+218/3/127
+227/123/104
+229/172/77
+230/244/127
+230/245/225
+230/245/225 
+179/225/182
+230/29/140
+241/225/157 
+203/140/55
+242/249/29
+244/68/159
+246/104/178
+247/91/137
+248/117/167
+249/249/127
+250/167/200 
+252/167/115
+252/192/178
+253/167/95
+253/192/122 
+253/154/82
+253/204/138
+254/179/66 
+254/191/78
+254/230/170
+254/242/224
+255/255/0
+255/255/115
+255/255/179
+255/255/191
+255/255/51
+26/157/111
+51/169/126
+65/176/135
+77/180/126
+Aalenian
+Adobe® Illustrator® 6.0” (menu Edit / Color 
+Aeronian
+Albian
+Anisian
+Aptian
+Aquitanian
+ Proterozoic
+Artinskian
+Asselian
+ATTENTION: For color conversions using a 
+Bajocian
+Barremian
+Bartonian
+Bashkirian
+Bathonian
+Berriasian
+Burdigalian
+C e n o z o i c M e s o z o i c
+Calabrian
+Callovian
+Calymmian
+Cambrian Ordovician Silurian
+Campanian
+Capitanian
+Carboniferous
+Carnian
+Cenomanian
+Changhsingian 
+Chattian
+Cisuralian
+Color composition by J.M. Pellé (BRGM, France)
+Coniacian
+Cretaceous
+Cryogenian
+Danian
+Dapingian
+Darriwilian
+Drumian
+Ectasian
+Eifelian
+Emsian
+Eoarchean
+Eocene
+Famennian 242/237/197 Ediacaran
+Floian
+Fortunian
+Frasnian
+from 0 (no pigment) to 255 (saturation of this 
+Furongian
+Gelasian
+Givetian
+Gorstian
+Guadalupian
+Guzhangian
+Gzhelian
+
+Hauterivian
+Hettangian
+Hirnantian
+Holocene
+Homerian
+if the resulting RGB values are slightly different.
+Illustrator® CS3’s color function of “Emulate 
+Induan
+Jan 2012
+Jiangshanian
+Kasimovian
+Katian
+Kimmeridgian
+Kungurian
+Ladinian
+Langhian
+Llandovery
+Lochkovian
+Lopingian
+Lower
+Lower
+Lower
+Lower
+Lower
+Lower
+Lower Devonian
+Ludfordian
+Ludlow
+Lutetian
+Maastrichtian
+Meso-
+Mesoarchean
+Messinian
+Middle
+Middle
+Middle
+Middle
+Middle
+Middle
+Miocene
+mixture of 203 Red, 140 Green and 205 Blue.
+Moscovian
+necessary to conserve the reference CMYK, even 
+Neogene
+Neoproterozoic
+Norian
+Olenekian
+Oligocene
+Orosirian
+Oxfordian
+P a l e o z o i c 
+P a l e o z o i c M e s o z o i c
+P r e c a m b r i a n 247/67/112
+Paibian
+Paleoarchean
+Paleocene
+Paleogene
+Paleoproterozoic
+Pennsylvanian
+Permian Jurassic Triassic 
+Piacenzian
+pigment). “Devonian (203/140/205)” indicates a 
+Pleistocene
+Pliensbachian
+Pliocene
+Pragian
+Priabonian
+Pridoli
+Quaternary
+Rhaetian
+Rhuddanian
+Rhyacian
+Roadian
+Rupelian
+Sakmarian
+Sandbian
+Santonian
+Selandian
+Series 3
+Serpukhovian
+Serravallian
+Settings / Settings).
+Sheinwoodian
+Siderian
+Sinemurian
+Stage 10 
+Stage 2 
+Stage 3 
+Stage 4 Series 2
+Stage 5 
+Statherian
+Stenian
+Telychian 
+Terreneuvian
+Thanetian
+Tithonian
+Toarcian
+Tonian 
+Tortonian
+Tournaisian
+Tremadocian 
+Turonian 
+Upper
+Upper
+Upper
+Upper
+Upper
+Upper
+Upper
+Upper
+Valanginian 
+values to the RGB codes utilizes Adobe® 
+Visean Mississippian
+Wenlock
+Wordian
+Wuchiapingian 
+Ypresian 
+Zanclean
