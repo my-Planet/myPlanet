@@ -15,37 +15,87 @@ https://engineering.purdue.edu/Stratigraphy/charts/RGB.pdf
 
 .eon_phanerozoic {              name  = "phanérozoïque";                        color = rgb(154, 217, 221);   }
 
+  .era_cenozoic { name  = "";     color = rgb(); }
+    .period_quaternary { name  = "";     color = rgb(); }
+    .period_neogene { name  = "";     color = rgb(); }
+    .period_paleogene { name  = "";     color = rgb(); }
+
+  .era_mesozoic { name  = "";     color = rgb(); }
+    .period_cretaceous { name  = "";     color = rgb(); }
+    .period_jurassic { name  = "";     color = rgb(); }
+    .period_triassic { name  = "";     color = rgb(); }
+
+  .era_paleozoic { name  = "";     color = rgb(); }
+    .period_permian { name  = "";     color = rgb(); }
+    .period_carboniferous { name  = "";     color = rgb(); }
+    .period_devonian { name  = "";     color = rgb(); }
+    .period_silurian { name  = "";     color = rgb(); }
+    .period_ordovician { name  = "";     color = rgb(); }
+
+    .period_cambrian {          name  = "cambrien";                             color = rgb(127, 160,  86);   }
+
+      .epoch_furongian {        name  = "furongien";                            color = rgb(179, 224, 149);   }
+        .age_stage10 {          name  = "étage 10";                             color = rgb(230, 245, 201);   }
+        .age_jiangshanian {     name  = "jiangshanien";                         color = rgb(217, 240, 187);   }
+        .age_paibian {          name  = "paibien";                              color = rgb(204, 235, 174);   }
+
+      .epoch_series3 {          name  = "série 3";                              color = rgb(166, 207, 134);   }
+        .age_guzhangian {       name  = "guzhangien";                           color = rgb(204, 223, 170);   }
+        .age_drumian {          name  = "drumien";                              color = rgb(191, 217, 157);   }
+        .age_stage5 {           name  = "étage 5";                              color = rgb(179, 212, 146);   }
+
+      .epoch_series2 {          name  = "série 2";                              color = rgb(153, 192, 120);   }
+        .age_stage4 {           name  = "étage 4";                              color = rgb(179, 202, 142);   }
+        .age_stage3 {           name  = "étage 3";                              color = rgb(166, 197, 131);   }
+
+      .epoch_terreneuvian {     name  = "terreneuvien";                         color = rgb(140, 176, 108);   }
+        .age_stage2 {           name  = "étage 2";                              color = rgb(166, 186, 128);   }
+        .age_fortunian {        name  = "fortunien";                            color = rgb(153, 181, 117);   }
+
+ 
+        .age_ { name  = "";     color = rgb(); }
+
+
+
 
 
 .eon_proterozoic {              name  = "protérozoïque";                        color = rgb(247,  53,  99);   }
-  .ere_neoproterozoic {         name  = "néoprotérozoïque";                     color = rgb(254, 179,  66);   }
+
+  .era_neoproterozoic {         name  = "néoprotérozoïque";                     color = rgb(254, 179,  66);   }
     .period_ediacaran {         name  = "édiacarien";                           color = rgb(254, 217, 106);   }
     .period_cryogenian {        name  = "cryogénien";                           color = rgb(254, 204,  92);   }
       .epoch_varanger {         name  = "varangien";                            color = rgb(254, 204,  92);   } /* check */
       .epoch_sturtian {         name  = "sturtien";                             color = rgb(254, 204,  92);   } /* check */
     .period_tonian {            name  = "tonien";                               color = rgb(254, 191,  78);   }
-  .ere_mesoproterozoic {        name  = "mésoprotérozoïque";                    color = rgb(253, 180,  98);   }
+
+  .era_mesoproterozoic {        name  = "mésoprotérozoïque";                    color = rgb(253, 180,  98);   }
     .period_stenian {           name  = "sténien";                              color = rgb(254, 217, 154);   }
     .period_ectasian {          name  = "ectasien";                             color = rgb(253, 204, 138);   }
     .period_calymmian {         name  = "calymmien";                            color = rgb(253, 192, 122);   }
-  .ere_paleoproterozoic {       name  = "paléoprotérozoïque";                   color = rgb(247,  67, 112);   }
+
+  .era_paleoproterozoic {       name  = "paléoprotérozoïque";                   color = rgb(247,  67, 112);   }
     .period_statherian {        name  = "stathérien";                           color = rgb(248, 117, 167);   }
     .period_orosirian {         name  = "orosirien";                            color = rgb(247, 104, 152);   }
     .period_rhyacian {          name  = "rhyacien";                             color = rgb(247,  91, 137);   }
     .period_siderian {          name  = "sidérien";                             color = rgb(247,  79, 124);   }
 
 .eon_archean {                  name  = "archéen";                              color = rgb(240,   4, 127);   }
-  .ere_neoarchean {             name  = "néoarchéen";                           color = rgb(249, 155, 193);   }
+
+  .era_neoarchean {             name  = "néoarchéen";                           color = rgb(249, 155, 193);   }
     .period_neoarchean {        name  = "néoarchéen";                           color = rgb(250, 167, 200);   }
-  .ere_mesoarchean {            name  = "mésoarchéen";                          color = rgb(247, 104, 169);   }
+
+  .era_mesoarchean {            name  = "mésoarchéen";                          color = rgb(247, 104, 169);   }
     .period_mesoarchean {       name  = "mésoarchéen";                          color = rgb(248, 129, 181);   }
-  .ere_paleoarchean {           name  = "paléoarchéen";                         color = rgb(244,  68, 159);   }
+
+  .era_paleoarchean {           name  = "paléoarchéen";                         color = rgb(244,  68, 159);   }
     .period_paleoarchean {      name  = "paléoarchéen";                         color = rgb(246, 104, 178);   }
-  .ere_eoarchean {              name  = "éoarchéen";                            color = rgb(218,   3, 127);   }
+
+  .era_eoarchean {              name  = "éoarchéen";                            color = rgb(218,   3, 127);   }
     .period_eoarchean {         name  = "éoarchéen";                            color = rgb(230,  29, 140);   }
 
 .eon_hadean {                   name  = "hadéen";                               color = rgb(174,  2, 126);    }
-  .ere_hadean {                 name  = "hadéen";                               color = rgb(174,  2, 126);    }
+
+  .era_hadean {                 name  = "hadéen";                               color = rgb(174,  2, 126);    }
 
 
 
@@ -64,7 +114,6 @@ albian
 anisian
 aptian
 aquitanian
- proterozoic
 artinskian
 asselian
 bajocian
@@ -74,38 +123,30 @@ bashkirian
 bathonian
 berriasian
 burdigalian
-c e n o z o i c m e s o z o i c
 calabrian
 callovian
-cambrian ordovician silurian
 campanian
 capitanian
-carboniferous
 carnian
 cenomanian
 changhsingian 
 chattian
 cisuralian
 coniacian
-cretaceous
 danian
 dapingian
 darriwilian
-drumian
 eifelian
 emsian
 eoarchean
 eocene
 famennian  
 floian
-fortunian
 frasnian
-furongian
 gelasian
 givetian
 gorstian
 guadalupian
-guzhangian
 gzhelian
 hauterivian
 hettangian
@@ -113,7 +154,6 @@ hirnantian
 holocene
 homerian
 induan
-jiangshanian
 kasimovian
 katian
 kimmeridgian
@@ -129,12 +169,13 @@ lower
 lower
 lower
 lower
-lower devonian
+lower 
 ludfordian
 ludlow
 lutetian
 maastrichtian
 meso-
+mesozoic
 messinian
 middle
 middle
@@ -143,28 +184,24 @@ middle
 middle
 middle
 miocene
+mississippian
 moscovian
-neogene
 norian
 olenekian
 oligocene
-oxfordian
-p a l e o z o i c 
-p a l e o z o i c m e s o z o i c
-p r e c a m b r i a n 
-paibian
+oxfordia
 paleocene
-paleogene
-pennsylvanian
-permian jurassic triassic 
+paleozoic
+pennsylvanian  
 piacenzian
 pleistocene
 pliensbachian
 pliocene
 pragian
+precambrian 
 priabonian
 pridoli
-quaternary
+proterozoic
 rhaetian
 rhuddanian
 roadian
@@ -173,19 +210,11 @@ sakmarian
 sandbian
 santonian
 selandian
-series 3
 serpukhovian
 serravallian
 sheinwoodian
-sinemurian
-stage 10 
-stage 2 
-stage 3 
-stage 4 
-series 2
-stage 5 
+sinemurian  
 telychian 
-terreneuvian
 thanetian
 tithonian
 toarcian 
@@ -202,7 +231,7 @@ upper
 upper
 upper
 valanginian 
-visean mississippian
+visean 
 wenlock
 wordian
 wuchiapingian 
@@ -308,18 +337,6 @@ zanclean
         Dapingien
       Inférieur Floien
         Trémadocien
-    Cambrien  Furongien Étage 10
-        Jiangshanien
-        Paibien
-      Série 3 Guzhangien
-        Drumien
-        Étage 5
-      Série 2 Étage 4
-        Étage 3
-      Terreneuvien  Étage 2
-        Fortunien
- 
-
  
     
        
@@ -344,8 +361,6 @@ zanclean
  128/171/108
  128/197/221
  128/207/216 
- 140/176/108
- 140/176/108
  140/205/96
  152/57/153
  153/192/141
@@ -357,9 +372,7 @@ zanclean
  153/215/179
  164/70/159
  166/185/108 
- 153/180/108
- 166/197/131 
- 166/207/134
+ 153/180/108 
  166/216/74 
  127/198/78
  166/220/181
@@ -369,14 +382,12 @@ zanclean
  166/199/183
  179/222/83
  179/223/127
- 179/224/149
  179/225/194
  188/117/183
  189/140/195 
  129/43/146
  191/194/107
  179/190/108
- 191/217/157
  191/227/93
  191/228/138
  191/230/207
@@ -385,7 +396,6 @@ zanclean
  201/131/191
  201/155/203
  204/212/199
- 204/223/170
  204/233/104
  204/234/151
  204/235/209
@@ -400,7 +410,6 @@ zanclean
  229/183/90
  229/196/104
  229/208/117
- 230/245/201
  239/88/69
  241/200/104
  241/213/118
@@ -436,20 +445,14 @@ zanclean
  78/179/211
 102/192/146
 103/165/153
-127/160/86
 140/205/87
 140/208/148
-153/181/117
-153/192/120
 153/214/159
 154/217/221
-166/186/128
 166/217/117
 166/219/171 
 0/146/112
 166/221/224
-179/202/142
-179/212/146
 179/225/194
 179/226/227
 179/227/238 
@@ -458,9 +461,7 @@ zanclean
 191/208/197
 191/230/195
 191/230/207
-204/235/174
 204/236/221
-217/240/187
 217/240/223
 227/123/104
 229/172/77
